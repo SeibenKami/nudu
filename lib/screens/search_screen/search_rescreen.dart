@@ -79,7 +79,7 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
                       Expanded(
                         child: Padding(
                           padding: const EdgeInsets.symmetric(vertical: 10),
-                          child: SearchBar(
+                          child: CustomSearchBar(
                             hintText: widget.query,
                             filledColor: Colors.grey.withOpacity(0.2),
                           ),
